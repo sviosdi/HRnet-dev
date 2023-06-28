@@ -8,7 +8,7 @@ Un autre repertory [HRnet-from-package](https://github.com/sviosdi/HRnet-from-pa
 # Exécution de l'application HRnet en local
 
 - Récupération du code localement : `git clone https://github.com/sviosdi/HRnet-dev.git`
-- Installation de l'application : `yarn`
+- Installation de l'application à _partir du dossier HRnet-dev_ : `yarn`
 - Pour lancer l'application en mode développement : `yarn dev`
 - Pour construire l'application (dans un répertoire **dist**) : `yarn build`
 - Pour lancer localement l'application en mode production après construction :` yarn preview`
