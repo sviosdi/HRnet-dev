@@ -3,7 +3,13 @@ Ce répertoire contient le code de l'application HRnet convertie en React. Le co
 Tout le code du composant **Datatable** est placé dans le repertoire /src/lib afin de pouvoir être compilé en _mode production_ et publié sur [npmjs](https://npmjs.com) en tant que package 'public' nommé [sviosdi-datatable](https://www.npmjs.com/settings/sviosdi/packages). Des notes sur la publication du package sur [npmjs](https://npmjs.com) sont indiquées plus pas. Cependant la configuration du projet pour
 publication est faite dans le repository [HRnet-lib](https://github.com/sviosdi/HRnet-lib) dont le README.md sera celui du package publié sur [npmjs](https://npmjs.com). L'application correspondante est déployée en mode production ici : [HRnet-from-package](https://sviosdi.github.io/HRnet-from-package/)
 
-Un autre repertory [HRnet-from-package](https://github.com/sviosdi/HRnet-from-package) ayant été prévu pour vérifier que l'application HRnet fonctionne correctement lorsqu'elle est créée à partir du package [sviosdi-datatable](https://www.npmjs.com/settings/sviosdi/packages).
+Un autre repertory [HRnet-from-package](https://github.com/sviosdi/HRnet-from-package) ayant été prévu pour vérifier que l'application HRnet fonctionne correctement lorsqu'elle est créée à partir du package [sviosdi-datatable](https://www.npmjs.com/settings/sviosdi/packages) ajouté aux dépendances du projet.
+
+La documentation _docusaurus_ du projet est disponible ici : [documentation HRnet](https://sviosdi.github.io/HRnet-doc). Elle est essentiellement composée de deux parties :
+
+- l'une à destination des utilisateurs des composants **Datatable** et **Select**, décrivant comment intégrer ces composants dans leur code.
+
+- L'autre partie décrit comment le code de l'application HRnet a été pensé et construit. On peut d'ailleurs considérer que l'application HRnet n'est qu'une instance du composant **Datatable** _dévoyée_ pour prendre la forme de l'application jQuery initiale.<br> Cette partie de la documentation doit permettre aussi de se remettre en tête rapidement l'essentiel de la structure du code pour pouvoir s'y replonger assez rapidement si nécessaire pour y apporter ultérieurement des modifications, des nouvelles fonctionnalités ou des corrections de bugs.
 
 # Exécution de l'application HRnet en local
 
@@ -15,7 +21,7 @@ Un autre repertory [HRnet-from-package](https://github.com/sviosdi/HRnet-from-pa
 
 # Publication du package sur [npmjs](https://npmjs.com). Notes en rapport avec le repertory [HRnet-lib](https://github.com/sviosdi/HRnet-lib)
 
-Le package a été publié sur [npmjs](https://npmjs.com) en suivant les instructions de l'article suivant : [Publishing a React component to npm using Vite](https://tomsouthall.com/blog/publishing-react-component-using-vite).
+Le package a été publié sur [npmjs](https://npmjs.com) sous le nom [sviosdi-datatable](https://www.npmjs.com/package/sviosdi-datatable) en suivant les instructions de l'article suivant : [Publishing a React component to npm using Vite](https://tomsouthall.com/blog/publishing-react-component-using-vite).
 
 Tout le code du composant Datatable est placé dans le dossier `src/lib` ayant à sa racine le fichier `index.js` qui exporte nominativement les composants `Datatable`, `Form`, `Sumbit` ainsi que la fonction `getModel`.
 
