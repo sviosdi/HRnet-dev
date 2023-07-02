@@ -183,7 +183,7 @@ const Datatable = ({ model, data: initial_data = [], externalForm }) => {
             }
             return true
         })
-
+        // on trie les résultats si nécessaire
         if (sortBy !== null) {
             _sort(result, sortBy, descending)
         }
