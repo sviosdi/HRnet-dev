@@ -21,8 +21,8 @@ const App = ({ data: initial_data = [] }) => {
         /*  console.log('localstorage update - hrnet')
         //localStorage.setItem(model.id, JSON.stringify(updated_data))
         */
-        console.log('enregistrement dans le localStorage')
-        localStorage.setItem(model.id, JSON.stringify(updated_data))
+        /*console.log('enregistrement dans le localStorage')
+        localStorage.setItem(model.id, JSON.stringify(updated_data))*/
         document.dispatchEvent(event)
         formRef.current.clear()
         modalRef.current.toggleModal()
