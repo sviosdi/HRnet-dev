@@ -207,11 +207,11 @@ const Datatable = ({ model, data: initial_data = [], externalForm }) => {
                         //console.log('submitting for standalone')
                         const updated_data = [...data, entry]
                         setData(updated_data)
-                        console.log('enregistrement dans le localStorage')
+                        /* console.log('enregistrement dans le localStorage')
                         localStorage.setItem(
                             model.id,
                             JSON.stringify(updated_data)
-                        )
+                        )*/
                         modalRef.current.toggle()
                         modalRef.current.clear()
                         setSearching(false)
