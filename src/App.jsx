@@ -33,7 +33,11 @@ const App = ({ data: initial_data = [] }) => {
             <SingleModal ref={modalRef}>Employee created!</SingleModal>
             <header>
                 <section>
-                    <img width="80" height="80" src="hrnet.webp"></img>
+                    <img
+                        width="80"
+                        height="80"
+                        src="/HRnet-dev/hrnet.webp"
+                    ></img>
                     <h1>HRnet</h1>
                 </section>
             </header>
